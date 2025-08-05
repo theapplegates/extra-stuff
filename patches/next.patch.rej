@@ -1,0 +1,8 @@
+@@ -44,6 +44,7 @@
+     return result;
+ };
+ function prettyBytes(number, options) {
++    return number/1000 + ' Kb'
+     if (!Number.isFinite(number)) {
+         throw Object.defineProperty(new TypeError(`Expected a finite number, got ${typeof number}: ${number}`), "__NEXT_ERROR_CODE", {
+             value: "E572",
