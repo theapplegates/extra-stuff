@@ -1,5 +1,5 @@
 .DS_Store
-
+.next/
 .tsup/
 node_modules/
 *.log
